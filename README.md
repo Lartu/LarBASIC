@@ -40,5 +40,11 @@ Lines written into the interpreter preceded by a line number (for example `10 PR
 100 END
 ```
 
+```basic
+10 "foo" . 1 = 19
+20 print foo1
+30 REM That prints 19
+```
+
 # License
 LarBASIC and its source code are released under the MIT License.
