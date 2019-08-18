@@ -26,7 +26,7 @@ Available operators are `+`, `-`, `/`, `*`, `^` (power), `%` (modulo), `==`, `!=
 
 Lines written into the interpreter preceded by a line number (for example `10 PRINT "Hello there!"`) are not executed immediately, but added to the code listing. You may run all the lines in your code listing by using the `run` statement. Lines without a line number are executed right away.
 
-# Example LarBASIC Listing
+# Example LarBASIC Listings
 ```basic
 10 REM +----------------------+
 20 REM | LarBASIC Disan Count |
