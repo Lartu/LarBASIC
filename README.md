@@ -1,6 +1,8 @@
 # LarBASIC 💾
 Tiny BASIC interactive interpreter with string support.
 
+![Screenshot](https://github.com/Lartu/LarBASIC/raw/master/screenshot.png)
+
 # How to run LarBASIC
 Clone this repository and run `$ python3 larbasic.py`. Of course, Python 3 is required to execute this software.
 
