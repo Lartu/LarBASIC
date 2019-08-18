@@ -1,4 +1,4 @@
-# LarBASIC
+# LarBASIC 💾
 Tiny BASIC interactive interpreter with string support.
 
 # How to run LarBASIC
@@ -39,3 +39,6 @@ Lines written into the interpreter preceded by a line number (for example `10 PR
 90 PRINT "Done!"
 100 END
 ```
+
+# License
+LarBASIC and its source code are released under the MIT License.
