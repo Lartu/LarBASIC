@@ -363,6 +363,12 @@ def solveExpression(tokens, level):
                         return None
                     else:
                         return [exprResL[0] == exprResR[0], "NUM"]
+                elif tokens[i][0] == "!=":
+                    if exprResL == None or exprResR == None:
+                        print("Error: Operator expects value.")
+                        return None
+                    else:
+                        return [exprResL[0] != exprResR[0], "NUM"]
                 elif tokens[i][0] == "<=":
                     if exprResL == None or exprResR == None:
                         print("Error: Operator expects value.")
